@@ -5,24 +5,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context="rlathfdl463.kr.hs.emirim.linearlayout02.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        />
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김성철" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="김성철"/>
+        </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        />
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김성철"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김성철"/>
+        </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        />
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김성철"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김성철"/>
+        </LinearLayout>
 
 </LinearLayout>
